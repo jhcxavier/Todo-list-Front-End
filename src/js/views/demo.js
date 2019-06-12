@@ -43,7 +43,6 @@ export class Demo extends React.Component {
 								return (
 									<li key={index} className="list-group-item d-flex justify-content-between">
 										<p>{item.todoItem}</p>
-										<p>{item.id}</p>
 										<button>
 											<i className="fas fa-times" onClick={() => actions.deleteTodo(item.id)} />
 										</button>
